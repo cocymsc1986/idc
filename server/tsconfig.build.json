@@ -1,0 +1,5 @@
+// build only config to exclude test files from build but still have them linted via tsconfig.json
+{
+  "extends": "./tsconfig.json",
+  "exclude": ["src/**/*.test.ts"]
+}
